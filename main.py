@@ -26,8 +26,9 @@ class App(QMainWindow):
     def draw_circle(self, qp):
         qp.setBrush(QColor(255, 255, 0))
         x = random.randint(100, 200)
+        y = random.randint(100, 200)
         qp.drawEllipse(30, 30, x, x)
-        qp.drawEllipse(300, 30, x, x)
+        qp.drawEllipse(300, 30, y, y)
 
 
 
